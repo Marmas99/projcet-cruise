@@ -5,8 +5,15 @@
     justify-content: space-around;
 }
 
-p {
-    font-weight: 500;
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
     color: #28a8a8c7;
+    border: none;
+    background: local;
+}
+
+button:hover {
     text-decoration: underline;
 }
