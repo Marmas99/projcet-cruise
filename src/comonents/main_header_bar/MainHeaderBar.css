@@ -4,3 +4,9 @@
     margin-right: 5%;
     justify-content: space-around;
 }
+
+p {
+    font-weight: 500;
+    color: #28a8a8c7;
+    text-decoration: underline;
+}
