@@ -1,6 +1,6 @@
 function MainHeaderBar() {
     return (
-        <div>
+        <div id="main_header_bar">
             <p>Hello</p>
             <p>Hello</p>
             <p>Hello</p>

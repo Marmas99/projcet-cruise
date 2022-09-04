@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1 id='main_title'>Markus Masalkovski</h1>
       <hr className='header_line'></hr>
-        <MainHeaderBar id='main_header_bar'/>
+        <MainHeaderBar />
       <hr className='header_line'></hr>
     </div>
   );
