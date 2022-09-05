@@ -1,9 +1,9 @@
 function MainHeaderBar() {
     return (
         <div id="main_header_bar">
-            <button>About Me</button>
-            <button>Resume</button>
-            <button>Personal projects</button>
+            <button className="left_button">About Me</button>
+            <button className="middle_button">Resume</button>
+            <button className="right_button">Personal projects</button>
         </div>
     );
 }
