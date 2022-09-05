@@ -7,13 +7,20 @@
 
 button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 600;
     color: #28a8a8c7;
     border: none;
     background: local;
+    position: relative;
 }
 
-button:hover {
-    text-decoration: underline;
+button::after{
+    content: '';
+    position: absolute;
+    background-color: #28a8a8b4;
+    height: 0.175rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
