@@ -21,20 +21,29 @@ button::after{
     background-color: #28a8a8b4;
     height: 0.175rem;
     bottom: 0;
-    left: 0;
     width: 100%;
     transform: scaleX(0);
     transition: transform 250ms ease-in
 }
 
 .left_button::after {
+    left: 5px;
     transform-origin: left;
 }
 
+.middle_button::after {
+    left: 0
+}
+
 .right_button::after {
+    right: 5px;
     transform-origin: right;
 }
 
 button:hover::after {
     transform: scaleX(0.85);
+}
+
+.right_button:hover::after {
+    transform: scaleX(0.9);
 }
