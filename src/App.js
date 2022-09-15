@@ -1,7 +1,9 @@
 import './App.css'
-import './comonents/main_header_bar/MainHeaderBar.css'
-import './comonents/main_header_bar/MainHeaderBar'
-import MainHeaderBar from './comonents/main_header_bar/MainHeaderBar';
+import './components/main_header_bar/MainHeaderBar.css'
+import './components/main_header_bar/MainHeaderBar'
+import MainHeaderBar from './components/main_header_bar/MainHeaderBar';
+import Resume from './components/body/resume/Resume';
+import './components/body/resume/Resume.css'
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <hr className='header_line'></hr>
         <MainHeaderBar />
       <hr className='header_line'></hr>
+      <Resume />
     </div>
   );
 }
