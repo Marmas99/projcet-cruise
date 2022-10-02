@@ -4,4 +4,25 @@
     height: 45rem;
     border-radius: 0.5rem;
     background-color: #e9e9e9cc;
+    display: grid;
+}
+
+
+
+#item1 {
+    background-color: red;
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+#item2 {
+    background-color: blue;
+    grid-column: 2;
+}
+
+#item3 {
+    background-color: green;
+    grid-column: 2;
 }
